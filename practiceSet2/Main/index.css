@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    height:30px;
+    width:150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#btn{
+    background-color: rgb(66, 239, 66);
+    border: none;
+}
+
+#btn1{
+    border: 1px solid black;
+    width: 200px;
+    background-color: aliceblue;
+}

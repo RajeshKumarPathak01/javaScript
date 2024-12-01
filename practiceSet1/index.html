@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/practiceSet1/index.js"></script>
+    <title>Mynta Bag</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border-radius: 10px;
+            border: none;
+            
+
+        }
+
+        button{
+           margin-top: 2%;
+        }
+
+        #btn1,#btn3{
+            background-color: lightgreen;
+            padding: 10px;
+            margin-left: 10px;
+        }
+
+        #btn2{
+            border:1px solid black;
+            padding: 10px;
+            margin-left: 10px;
+            width: 20%;
+        }
+
+            h2{
+                margin: 10px;
+                font-size: 30px;
+            }
+
+
+            h2:hover{
+                animation-name: raj;
+                animation-duration: 1s;
+                animation-direction: alternate;
+praanicmation-iteration-count: infinite;
+
+                
+            }
+
+            h2:hover{
+                transition-property: all;
+                transition-duration: 2s;
+                transform-style: preserve-3d;
+            }
+            @keyframes raj {
+                    0%{color:red}
+                    70%{color: green;}
+                    100%{color:blue}
+                }
+    </style>
+</head>
+<body>
+<main>
+    <button id="btn1" class="btn"> Add to Bag</button>
+    <button id="btn2" class="btn"> Move to List</button>
+    <button id="btn3" class="btn"> Change background-color</button><br>
+    <h2 id="cartSummary">Your bag has 0 item</h2>
+
+</main>
+    
+</body>
+</html>
